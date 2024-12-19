@@ -1,0 +1,21 @@
+    ; Assign F1 as the hotkey to start fishing
+
+    F1::
+
+    {
+
+        ; Simulate mouse click to cast the line
+
+        Click, 100, 200
+
+        Sleep, 1000 ; Wait for 1 second
+
+        
+
+        ; Simulate mouse movement to reel in
+
+        MouseMove, 100, 100, 0, R
+
+        Sleep, 500 ; Wait for half a second
+
+    }
